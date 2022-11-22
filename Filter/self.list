@@ -1,0 +1,25 @@
+# Advertising
+# > General
+host-suffix, ooxx.be, PROXY
+host-suffix, jdsharedresourcescdn.azureedge.net, PROXY
+host-suffix, cloudinary.com, PROXY
+host-suffix, arcteryx.com, PROXY
+host, reware-production.yerdlesite.com, PROXY
+host-keyword, xj-app.oss-cn-hangzhou.aliyuncs.com, reject
+host, private71.ghuws.win, PROXY
+host, theporndude.com, PROXY
+
+#> 知乎AD屏蔽
+DOMAIN,118.89.204.198,REJECT
+DOMAIN-KEYWORD,118.89.204.198,REJECT
+IP-CIDR,118.89.204.198/32,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+HOST,mqtt.zhihu.com,REJECT
+HOST,sugar.zhihu.com,REJECT
+USER-AGENT,AVOS*,REJECT
+
+
+
+
+
+
