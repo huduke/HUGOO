@@ -126,7 +126,7 @@ function GetCoupon(cookie, productCd) {
     let productDes = "";
     let productCdList = [];
     let productDesList = [];
-    let couponIds = ["17104","17100","16635"];
+    let couponIds = ["17566","17565","17564","17398"];
     let cookie = magicJS.read(famijiaCookieKey);
     let realCookie = magicJS.read(famijiaRealCookieKey);
     let blackBox = magicJS.read(famijiaBlackBoxKey);
