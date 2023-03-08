@@ -59,5 +59,4 @@ payload:
   - DOMAIN-SUFFIX,vipstatic.com
   - DOMAIN,translate.googleapis.com
   - DOMAIN-SUFFIX,shopify.com
-  - DOMAIN-SUFFIX,openai.com
   
