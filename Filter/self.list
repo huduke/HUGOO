@@ -18,6 +18,9 @@ HOST,mqtt.zhihu.com,REJECT
 HOST,sugar.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
 
+#>网上国网
+DOMAIN-KEYWORD, yuheng, DIRECT
+DOMAIN-KEYWORD, yqc-premium, DIRECT
 
 
 
