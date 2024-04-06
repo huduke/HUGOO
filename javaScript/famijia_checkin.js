@@ -6,7 +6,7 @@ const famijiaRealCookieKey = "famijia_checkin_real_cookie";
 const famijiaDeviceIdKey = "famijia_device_id";
 const famijiaBlackBoxKey = "famijia_black_box";
 let magicJS = MagicJS(scriptName, "INFO");
-magicJS.unifiedPushUrl = magicJS.read("famijia_unified_push_url") || magicJS.read("magicjs_unified_push_url");
+magicJS.unifiedPushUrl = magicJS.read("famijia_unified_push_url") || magicJS.read("magicjs_unified_push_url"); 
 
 function CheckInNewVerrsion(cookie, deviceId, blackBox, realCookie) {
   return new Promise((resolve, reject) => {
